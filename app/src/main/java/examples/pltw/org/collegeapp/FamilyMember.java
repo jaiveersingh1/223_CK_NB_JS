@@ -28,9 +28,4 @@ public abstract class FamilyMember {
         this.lastName = lastName;
     }
 
-    public FamilyMember(String first, String last) {
-        setFirstName(first);
-        setLastName(last);
-    }
-
 }
