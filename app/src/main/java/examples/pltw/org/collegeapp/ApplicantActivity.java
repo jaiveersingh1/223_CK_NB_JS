@@ -115,7 +115,7 @@ public class ApplicantActivity extends AppCompatActivity
 
         if (id == R.id.family_member) {
             Log.i(TAG, "Family Member menu item selected.");
-            contentFragment = new GuardianFragment();
+            contentFragment = new FamilyListFragment();
         } else if (id == R.id.profile) {
             Log.i(TAG, "Profile menu item selected.");
             contentFragment = new ProfileFragment();

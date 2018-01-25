@@ -13,4 +13,12 @@ public class Guardian extends FamilyMember {
     public void setOccupation(String occupation) {
         this.occupation = occupation;
     }
+    public Guardian(String first, String last)
+    {
+        super(first, last);
+    }
+
+    public Guardian() {
+        super();
+    }
 }
